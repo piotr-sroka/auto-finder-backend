@@ -10,4 +10,7 @@ export class RegisterAuthDto {
 
   @IsString()
   name?: string;
+
+  @IsString()
+  surname?: string;
 }
